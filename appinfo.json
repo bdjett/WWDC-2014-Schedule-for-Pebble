@@ -1,0 +1,46 @@
+{
+  "uuid": "827e2886-5a6b-43b7-8c9b-5783eedbc498",
+  "shortName": "WWDC 2014",
+  "longName": "WWDC 2014 Schedule for Pebble",
+  "companyName": "Logical Pixels",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "index": 0,
+    "id": 1,
+    "title": 2,
+    "type": 3,
+    "room": 4,
+    "time": 5,
+    "sectionName": 6,
+    "sectionNumber": 7,
+    "sectionIndex": 8,
+    "getSessions": 9,
+    "sectionKey": 10,
+    "getEventInfo": 11,
+    "error": 12
+  },
+  "resources": {
+    "media": [
+        {
+            "type": "png",
+            "file": "apple_bg.png",
+            "name": "IMAGE_APPLE_BG"
+        },
+        {
+            "type": "png",
+            "file": "lab_indicator.png",
+            "name": "IMAGE_LAB"
+        },
+        {
+            "type": "png",
+            "file": "menu_icon.png",
+            "name": "MENU_ICON",
+            "menuIcon": true
+        }
+    ]
+  }
+}
