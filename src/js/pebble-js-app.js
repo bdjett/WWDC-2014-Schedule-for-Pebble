@@ -98,7 +98,7 @@ function getCurrentEvents() {
             for (var k in timeGroups) {
                 // format the time
                 var time = new Date(k);
-                var hour = time.getHours() - 3;
+                var hour = time.getHours();
                 var min = time.getMinutes();
                 if (hour >= 12) {
                     var ampm = "PM";
@@ -140,9 +140,9 @@ function getEventsForTime(sectionIndex) {
         // format the time
         var startTime = new Date(element['startGMT']);
         var endTime = new Date(element['endGMT']);
-        var startHour = startTime.getHours() - 3;
+        var startHour = startTime.getHours();
         var startMin = startTime.getMinutes();
-        var endHour = endTime.getHours() - 3;
+        var endHour = endTime.getHours();
         var endMin = endTime.getMinutes();
         if (startHour >= 12) {
             var startAmpm = "PM";
@@ -198,9 +198,9 @@ function getEventInfo(eventID) {
         // format the time
         var startTime = new Date(eventInfo['startGMT']);
         var endTime = new Date(eventInfo['endGMT']);
-        var startHour = startTime.getHours() - 3;
+        var startHour = startTime.getHours();
         var startMin = startTime.getMinutes();
-        var endHour = endTime.getHours() - 3;
+        var endHour = endTime.getHours();
         var endMin = endTime.getMinutes();
         if (startHour >= 12) {
             var startAmpm = "PM";
